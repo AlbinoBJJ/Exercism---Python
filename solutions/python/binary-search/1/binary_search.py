@@ -13,6 +13,4 @@ def find(search_list, value):
             higher_index = mid_index - 1
         else:
             lower_index = mid_index + 1
-        if value not in search_list:
-            raise ValueError("value not in array")
-    return mid_index
+    raise ValueError("value not in array")
